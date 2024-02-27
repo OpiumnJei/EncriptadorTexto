@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Encriptador</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <header class="encabezado">
+            <img  id="logoEncabezado" src="imagenes/Logo_Encriptador.png" alt="imagenEncriptador">
+        </header>
+
+        <main class="principal">
+
+            <div class="container">
+                <textarea type="text" id="input-box" required placeholder="Ingrese el texto aqui"></textarea>
+                <output id="output-box"  placeholder="No hay ningun texto aqui"></output>
+            </div>
+
+            <div class="aviso">
+                <img src="imagenes/exclamacion.png" alt="imagen" id="imagenAviso"> Solo letras minúsculas y sin acento.
+            </div>
+          
+
+            <div class="Botones">
+                <button id="encript" onclick="encriptarTexto();">Encriptar</button>
+                <button id="desencript" onclick="desencriptarTexto();">Desencriptar</button>
+                <button id="copiar" onclick="copiarTexto();">Copiar</button>
+            </div>
+
+            <footer>
+                
+                <img  id="imgFooter" src="imagenes/Logo_Encriptador.png" alt="imagenEncriptador">
+
+                <p>© Jerlinson Gonzalez - 2024</p>
+            </footer>
+
+
+            
+        </main>
+
+        <script src="app.js"></script>
+
+    </body>
+
+
+</html>
